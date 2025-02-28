@@ -19,8 +19,21 @@ Machine Learning Process
 
 ## Summary
 
-The model performed exceptionally well in identifying healthy loans, with 99% accuracy. However, for high-risk loans, while the recall is 95%, the precision is 87%, meaning some healthy loans might be incorrectly classified as high-risk.
+The model is recommended for use by the company for the following reasons:
 
-## Recommendation
-I would recommend to use this model as an initial screening tool for credit risk assessment.
-	
+1.	High Overall Accuracy (99%)
+	•	The model correctly classifies 99% of the loans, which means it is highly reliable for predicting both healthy and high-risk loans.
+	•	A high accuracy score indicates that the model can effectively be a useful tool for initial loan risk assessments.
+
+2. Strong Performance on Healthy Loans
+	•	We could see that the precision of the model on healthy loans is 100%. This means that when the model predicts a loan as healthy, it is always correct.
+	•	Recall (100%)- The model correctly identifies all healthy loans.
+	•	F1-score (100%)- A perfect balance between precision and recall.
+	This ensures that safe borrowers are not mistakenly flagged as high risk, which is crucial for approving loans efficiently.
+
+3. Reliable Identification of High-Risk Loans
+	•	Precision (87%)- When the model flags a loan as high risk, it is correct 87% of the time.
+	•	Recall (95%)- The model identifies 95% of actual high-risk loans, meaning it catches most borrowers that are likely to default.
+	•	F1-score (91%)- A good balance between precision and recall, making the model dependable for risk assessment.
+	This means that the model is effective at identifying risky loans, which helps the company reduce financial losses by minimizing loan defaults.
+
